@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-back", "english-trainer-back\english-trainer-back.csproj", "{E7CCCDF1-08D6-489A-AE34-14F695B89A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-dal", "english-trainer-dal\english-trainer-dal.csproj", "{28CBFC35-A1E5-495C-980D-D27138CF28C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7CCCDF1-08D6-489A-AE34-14F695B89A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CCCDF1-08D6-489A-AE34-14F695B89A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CCCDF1-08D6-489A-AE34-14F695B89A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CCCDF1-08D6-489A-AE34-14F695B89A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
