@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace english_trainer_dal.Models;
 
-public class Words
+public class Words : Base
 {
     [Required]
     public string Word { get; set; }

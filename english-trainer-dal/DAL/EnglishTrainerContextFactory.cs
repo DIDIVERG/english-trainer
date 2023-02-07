@@ -7,11 +7,12 @@ namespace english_trainer_dal.DAL;
 
 public class EnglishTrainerContextFactory : IDesignTimeDbContextFactory<EnglishTrainerContext>
 {
+    private string connectionString;
+    public string ConnectionString { get; set; }
     public EnglishTrainerContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<EnglishTrainerContext>();
-        string connectionString = ""; 
-        optionsBuilder.UseNpgsql(connectionString);
+        optionsBuilder.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
         return new EnglishTrainerContext(optionsBuilder.Options);
     }
 }

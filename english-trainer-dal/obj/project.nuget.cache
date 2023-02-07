@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NnC575tEtON9J/MxeuBP16W/ezSPORWsKgrwa5Ik643Wfp3MbjBpAHpSSjjr9i9sFdsNUHKGty7shcCgEtRhVQ==",
+  "dgSpecHash": "OFMnwoB345RufNwNTBzlfn2rv+P1mzpUS+oR3otNJ5xf0+USNxrCY4p1EZJnBsakCP4v+V91NPlxp1yl8aBgHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ILYA\\RiderProjects\\english-trainer\\english-trainer-dal\\english-trainer-dal.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ILYA\\.nuget\\packages\\efcore.namingconventions\\7.0.0\\efcore.namingconventions.7.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.1\\microsoft.entityframeworkcore.7.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.1\\microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",
@@ -25,12 +26,8 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.1\\npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+    "C:\\Users\\ILYA\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

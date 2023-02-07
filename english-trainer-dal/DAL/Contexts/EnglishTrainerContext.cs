@@ -1,4 +1,5 @@
-﻿using english_trainer_dal.Models;
+﻿using english_trainer_dal.DAL.Extensions;
+using english_trainer_dal.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace english_trainer_dal.DAL.Contexts;
@@ -16,10 +17,13 @@ public class EnglishTrainerContext : DbContext
     {
         
     }
-    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // использование Fluent API
+        modelBuilder.ConfigureLanguages();
+        modelBuilder.ConfigureMedia();
+        modelBuilder.ConfigureTranslation();
+        modelBuilder.ConfigureWords();
+        modelBuilder.ConfigurePartOfSpeech();
         base.OnModelCreating(modelBuilder);
     }
     
