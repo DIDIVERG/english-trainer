@@ -1,6 +1,8 @@
-﻿namespace english_trainer_dal.DAL.Repository.Interfaces;
+﻿using english_trainer_dal.Models;
 
-public interface IPartOfSpeechRepo
+namespace english_trainer_dal.DAL.Repository.Interfaces;
+
+public interface IPartOfSpeechRepo : IBaseRepo<PartOfSpeech>
 {
     
 }

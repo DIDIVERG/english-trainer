@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace english_trainer_dal.DAL.Repository.Base;
 
-public abstract class BaseRepo <T> : IDisposable, IBaseRepo<T> where T: Models.Base
+public abstract class BaseRepo <T> : IDisposable, IBaseRepo<T> where T: class
 {
     private DbSet<T> _dbset;
     private EnglishTrainerContext _context;

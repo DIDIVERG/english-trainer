@@ -2,7 +2,7 @@
 
 namespace english_trainer_dal.DAL.Repository.Interfaces;
 
-public interface IBaseRepo <T> where T: Models.Base
+public interface IBaseRepo <T> where T : class
 {
      Task<int> AddAsync(T entity, bool persist = true);
 

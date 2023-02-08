@@ -1,6 +1,8 @@
-﻿namespace english_trainer_dal.DAL.Repository.Interfaces;
+﻿using english_trainer_dal.Models;
 
-public interface ILanguagesRepo
+namespace english_trainer_dal.DAL.Repository.Interfaces;
+
+public interface ILanguagesRepo: IBaseRepo<Languages>
 {
     
 }

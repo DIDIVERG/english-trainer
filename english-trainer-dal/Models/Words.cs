@@ -9,7 +9,7 @@ public class Words : Base
     [Required]
     public string Word { get; set; }
     public string Transcription { get; set; }
-    [InverseProperty(nameof(Words.PartOfSpeeches))]
+    [InverseProperty(nameof(Models.PartOfSpeech.WordsList))]
     public virtual List<PartOfSpeech> PartOfSpeeches { get; set; } = new List<PartOfSpeech>();
     [InverseProperty(nameof(Translations.WordsList))]
     public virtual List<Translations> TranslationsList { get; set; } = new List<Translations>();

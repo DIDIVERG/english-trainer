@@ -12,7 +12,7 @@ public class EnglishTrainerContext : DbContext
     public DbSet<PartOfSpeech> PartOfSpeeches { get; set; }
     public DbSet<Words> Words { get; set; }
     public DbSet<Translations> Translations { get; set; }
-
+    
     public EnglishTrainerContext(DbContextOptions<EnglishTrainerContext> options) : base(options)
     {
         
