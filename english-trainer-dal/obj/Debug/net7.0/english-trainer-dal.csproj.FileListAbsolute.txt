@@ -1,0 +1,14 @@
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\bin\Debug\net7.0\english-trainer-dal.deps.json
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\bin\Debug\net7.0\english-trainer-dal.runtimeconfig.json
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\bin\Debug\net7.0\english-trainer-dal.dll
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\bin\Debug\net7.0\english-trainer-dal.pdb
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.csproj.AssemblyReference.cache
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.AssemblyInfoInputs.cache
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.AssemblyInfo.cs
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.csproj.CoreCompileInputs.cache
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.dll
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\refint\english-trainer-dal.dll
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.pdb
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\english-trainer-dal.genruntimeconfig.cache
+C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\obj\Debug\net7.0\ref\english-trainer-dal.dll
