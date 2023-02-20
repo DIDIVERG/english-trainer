@@ -1,4 +1,5 @@
 ﻿
+using System.Linq.Expressions;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using english_trainer_dal.DAL.Contexts;
@@ -8,12 +9,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace english_trainer_dal.DAL.Repository.Base;
 
-public abstract class BaseRepo <T> : IDisposable, IBaseRepo<T> where T: class
+public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
 {
     private DbSet<T> _dbset;
-    private EnglishTrainerContext _context;
+    protected DbContext _context;
     private bool _disposed;
-    public BaseRepo(EnglishTrainerContext context)
+    public BaseRepo(DbContext context)
     {
         this._context = context;
         _dbset = context.Set<T>();
@@ -41,54 +42,35 @@ public abstract class BaseRepo <T> : IDisposable, IBaseRepo<T> where T: class
     }
 
     ~BaseRepo() => Dispose(false);
-
-
-    public virtual async Task<int> AddAsync(T entity, bool persist = true)
+    public virtual async Task AddAsync(T entity, bool persist = true)
     {
         await _dbset.AddAsync(entity);
-        return persist ? await SaveChangesAsync() : 0;
     }
 
-    public virtual async Task<int> AddRangeAsync(IEnumerable<T> entities, bool persist = true)
+    public virtual async Task AddRangeAsync(IEnumerable<T> entities, bool persist = true)
     {
         await _dbset.AddRangeAsync(entities);
-        return persist ? await SaveChangesAsync() : 0;
     }
-
-    public virtual async Task<int> UpdateAsync(T entity, bool persist = true)
-    {
-        await Task.Run(() => _dbset.Update(entity));
-        return persist ? await SaveChangesAsync() : 0;
-
-    }
-
-    public virtual async Task<int> ExecuteQueryAsync(string query, object[] parameters)
-    {
-       return await _context.Database.ExecuteSqlRawAsync(query, parameters);
-    }
-
-    public virtual async Task<T> FindAsync(int id) => await _dbset.FindAsync(id);
     
-    public virtual async Task<int> DeleteAsync(T entity, bool persist = true)
+    public virtual async Task ExecuteQueryAsync(string query, object[] parameters)
+    {
+        await _context.Database.ExecuteSqlRawAsync(query, parameters);
+    }
+    
+    public virtual async Task<T> GetOneAsync(int id) => await _dbset.FindAsync(id);
+
+    public virtual async Task<IEnumerable<T>> GetAll() => await Task.Run(() => _dbset.ToList());
+
+    public virtual async Task<T> FindAsync(Expression<Func<bool,T>> predicate) => await _dbset.FindAsync(predicate);
+    
+    public virtual async Task DeleteAsync(T entity, bool persist = true)
     {
          await Task.Run(() => _dbset.Remove(entity));
-         return persist ? await SaveChangesAsync() : 0;
     }
 
-    public virtual async Task<int> DeleteRangeAsync(IEnumerable<T> entities, bool persist = true)
+    public virtual async Task DeleteRangeAsync(IEnumerable<T> entities, bool persist = true)
     {
         await Task.Run(() => _dbset.RemoveRange(entities));
-        return persist ? await SaveChangesAsync() : 0;
     }
-    public async Task<int> SaveChangesAsync()
-    {
-        try
-        {
-            return await _context.SaveChangesAsync();
-        }
-        catch (Exception e)
-        {
-            throw new Exception("An error occured while updating database");
-        }
-    }
+
 }

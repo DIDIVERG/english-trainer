@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-back", "eng
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-dal", "english-trainer-dal\english-trainer-dal.csproj", "{28CBFC35-A1E5-495C-980D-D27138CF28C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-tests", "english-trainer-tests\english-trainer-tests.csproj", "{2A78179A-1D7E-481C-854C-BEC58AF390EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28CBFC35-A1E5-495C-980D-D27138CF28C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
