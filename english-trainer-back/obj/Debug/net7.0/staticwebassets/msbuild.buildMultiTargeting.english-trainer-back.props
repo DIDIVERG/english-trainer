@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\english-trainer-back.props" />
+</Project>
