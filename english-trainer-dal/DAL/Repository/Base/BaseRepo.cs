@@ -13,35 +13,12 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
 {
     private DbSet<T> _dbset;
     protected DbContext _context;
-    private bool _disposed;
     public BaseRepo(DbContext context)
     {
         this._context = context;
         _dbset = context.Set<T>();
     }
-
-    public void Dispose()
-    {
-        Dispose(true); 
-        GC.SuppressFinalize(this);
-    }
-    protected virtual void Dispose(bool disposing)
-    {
-        if (_disposed)
-        {
-            return;
-        }
-
-        if (disposing)
-        {
-            // place to releasing managed resources with dispose method 
-            _context.Dispose();
-        }
-        // place to releasing unmanaged resources
-        _disposed = true;
-    }
-
-    ~BaseRepo() => Dispose(false);
+    
     public virtual async Task AddAsync(T entity, bool persist = true)
     {
         await _dbset.AddAsync(entity);
@@ -59,7 +36,7 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
     
     public virtual async Task<T> GetOneAsync(int id) => await _dbset.FindAsync(id);
 
-    public virtual async Task<IEnumerable<T>> GetAll() => await Task.Run(() => _dbset.ToList());
+    public virtual async Task<IEnumerable<T>> GetAllAsync() => await Task.Run(() => _dbset.ToList());
 
     public virtual async Task<T> FindAsync(Expression<Func<bool,T>> predicate) => await _dbset.FindAsync(predicate);
     

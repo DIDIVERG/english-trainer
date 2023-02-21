@@ -1,6 +1,6 @@
 ﻿using english_trainer_dal.DAL.Repository.Interfaces;
 
-namespace english_trainer_dal.DAL.Repository.UnitOfWork;
+namespace english_trainer_dal.DAL.UnitOfWork;
 
 public interface IUnitOfWork : IDisposable
 {

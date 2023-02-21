@@ -1,7 +1,8 @@
 ﻿using english_trainer_dal.DAL.Contexts;
+using english_trainer_dal.DAL.Repository;
 using english_trainer_dal.DAL.Repository.Interfaces;
 
-namespace english_trainer_dal.DAL.Repository.UnitOfWork;
+namespace english_trainer_dal.DAL.UnitOfWork;
 
 public class UnitOfWork: IUnitOfWork
 {
@@ -53,7 +54,7 @@ public class UnitOfWork: IUnitOfWork
         }
         catch (Exception e)
         {
-            throw new Exception("An error occured while saving changes in database");
+            throw new Exception(e.Message);
         }
     }
 }
