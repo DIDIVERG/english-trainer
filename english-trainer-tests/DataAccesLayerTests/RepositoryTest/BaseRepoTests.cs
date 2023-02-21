@@ -122,7 +122,7 @@ public class BaseRepoTests
         _unit.Dispose();
     } 
     [Fact]
-    public async Task UnitOfTestMediaRepository_DeleteRangeAsync_ReturnsQuantityOfElementsMinusOne()
+    public async Task UnitOfTestMediaRepository_DeleteRangeAsync_ReturnsQuantityOfElementsMinusTwo()
     {
         //arrange 
         List<Media> medias = new List<Media>();
