@@ -1,0 +1,681 @@
+2023-02-26T17:31:28.7207356+03:00 [INF] (//) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-02-26T17:31:28.8470318+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T17:31:28.8496828+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T17:31:28.8510470+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T17:31:28.8515122+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T17:31:28.8519628+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T17:31:29.2969532+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T17:31:29.4312832+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 135.4199ms
+2023-02-26T17:31:29.5521464+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T17:31:29.5815653+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 29.3008ms
+2023-02-26T17:36:25.6564763+03:00 [INF] (//) Application is shutting down...
+2023-02-26T18:52:16.3846984+03:00 [INF] (//) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-02-26T18:52:16.6040376+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T18:52:16.6077098+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T18:52:16.6107297+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T18:52:16.6115387+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T18:52:16.6123314+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T18:52:17.3510896+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T18:52:17.5624575+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 213.4832ms
+2023-02-26T18:52:17.7464407+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T18:52:17.7911821+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 44.6407ms
+2023-02-26T18:52:21.1651497+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T18:52:21.1705940+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 5.4370ms
+2023-02-26T18:52:21.2937573+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T18:52:21.2968272+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.0001ms
+2023-02-26T18:52:21.3029085+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/favicon-32x32.png - -
+2023-02-26T18:52:21.3210301+03:00 [INF] (//) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-02-26T18:52:21.3245315+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/favicon-32x32.png - - - 200 628 image/png 21.4718ms
+2023-02-26T18:52:26.5433726+03:00 [INF] (//) Application is shutting down...
+2023-02-26T18:54:22.1009835+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T18:54:22.1575549+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T18:54:22.1623228+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T18:54:22.1639886+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T18:54:22.1656756+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T18:54:22.4572760+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T18:54:22.6713811+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 216.1637ms
+2023-02-26T18:54:22.8487056+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T18:54:22.8847737+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Media" for actions - english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back),english_trainer_back.Controllers.MediaController.GetAllAsync (english-trainer-back). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T18:54:22.9151465+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 65.5825ms
+2023-02-26T19:13:03.9444550+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:14:28.7924185+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:14:28.8465726+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:14:28.8510697+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:14:28.8525540+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:14:28.8534154+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:14:29.0796876+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:14:29.2895088+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 211.9562ms
+2023-02-26T19:14:29.4715190+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:14:29.6682034+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.6448ms
+2023-02-26T19:16:29.8279150+03:00 [INF] (//) Request starting HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383
+2023-02-26T19:16:29.8376407+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:16:29.8626418+03:00 [INF] (//) Route matched with "{action = \"AddOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] AddOne(english_trainer_dal.Models.Media)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:16:29.8714582+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)" in 2.3119ms
+2023-02-26T19:16:29.8750188+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:16:29.8771145+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'english_trainer_dal.DAL.Repository.Interfaces.IBaseRepo`1[english_trainer_dal.Models.Media]' while attempting to activate 'english_trainer_back.Controllers.MediaController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T19:16:29.8940101+03:00 [INF] (//) Request finished HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383 - 500 - text/plain;+charset=utf-8 65.6750ms
+2023-02-26T19:18:34.5350333+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:18:46.9680750+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:18:46.9993811+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:18:47.0020160+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:18:47.0169050+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:18:47.0181185+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:18:47.4821409+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:18:47.6558788+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 173.0021ms
+2023-02-26T19:18:47.7879856+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:18:47.9452066+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.2753ms
+2023-02-26T19:19:21.2950397+03:00 [INF] (//) Request starting HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383
+2023-02-26T19:19:21.3014598+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:19:21.3261583+03:00 [INF] (//) Route matched with "{action = \"AddOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] AddOne(english_trainer_dal.Models.Media)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:19:21.3332741+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)" in 1.4029ms
+2023-02-26T19:19:21.3366461+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:19:21.3402273+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'english_trainer_dal.DAL.Repository.Interfaces.IBaseRepo`1[english_trainer_dal.Models.Media]' while attempting to activate 'english_trainer_back.Controllers.MediaController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T19:19:21.3726350+03:00 [INF] (//) Request finished HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383 - 500 - text/plain;+charset=utf-8 77.3066ms
+2023-02-26T19:19:50.0973748+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:19:50.1308862+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:19:50.1405779+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:19:50.1483666+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:19:50.1490124+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:19:50.6392669+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:19:50.7959282+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 157.7985ms
+2023-02-26T19:19:50.9778490+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:19:51.0872430+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.3761ms
+2023-02-26T19:22:41.5216485+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:22:41.5300600+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:22:41.5670553+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:22:41.5746707+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 1.7748ms
+2023-02-26T19:22:41.5776364+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:22:41.5811692+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'english_trainer_dal.DAL.Repository.Interfaces.IBaseRepo`1[english_trainer_dal.Models.Media]' while attempting to activate 'english_trainer_back.Controllers.MediaController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T19:22:41.6443984+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 91.9347ms
+2023-02-26T19:26:16.3949247+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:26:16.4257769+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:26:16.4288667+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:26:16.4295461+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:26:16.4300556+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:26:16.9949564+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:26:17.1200474+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 126.2351ms
+2023-02-26T19:26:17.2239208+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:26:17.3383559+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.3987ms
+2023-02-26T19:26:30.5503363+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:26:30.5615890+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:26:30.5899868+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:26:30.5964919+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 0.813ms
+2023-02-26T19:26:30.5999973+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:26:30.6026330+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'english_trainer_dal.DAL.Repository.Interfaces.IBaseRepo`1[english_trainer_dal.Models.Media]' while attempting to activate 'english_trainer_back.Controllers.MediaController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T19:26:30.6216874+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 70.9690ms
+2023-02-26T19:27:47.6494949+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:27:54.8619598+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:27:54.8956066+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:27:54.8987499+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:27:54.9118550+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:27:54.9124320+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:27:55.4681527+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:27:55.6206982+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 155.6863ms
+2023-02-26T19:27:55.7336834+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:27:55.8712487+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.5628ms
+2023-02-26T19:28:02.6809538+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:28:02.6901881+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:28:02.7182858+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:28:02.7260048+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 1.5026ms
+2023-02-26T19:28:02.7311506+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:28:02.7338894+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'english_trainer_dal.DAL.Repository.Interfaces.IBaseRepo`1[english_trainer_dal.Models.Media]' while attempting to activate 'english_trainer_back.Controllers.MediaController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-02-26T19:28:02.7655648+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 84.1410ms
+2023-02-26T19:28:55.8095812+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:28:55.8418782+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:28:55.8456298+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:28:55.8471594+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:28:55.8476963+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:29:00.9047484+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:29:01.0272305+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 122.7116ms
+2023-02-26T19:29:01.1787802+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:29:01.2766047+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.6786ms
+2023-02-26T19:29:10.6069258+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:29:10.6151902+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:29:10.6430795+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:29:11.8338819+03:00 [ERR] (//) Failed executing DbCommand ("14"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT m.media_id, m.\"FilePath\", m.\"Name\", m.\"Subtitless\", m.\"VideoCode\"
+FROM \"Medias\" AS m
+WHERE m.media_id = @__p_0
+LIMIT 1"
+2023-02-26T19:29:11.8579013+03:00 [ERR] (//) An exception occurred while iterating over the results of a query for context type '"english_trainer_dal.DAL.Contexts.EnglishTrainerContext"'."
+""Npgsql.PostgresException (0x80004005): 42P01: relation \"Medias\" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation \"Medias\" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable"
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:29:11.8748045+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 1225.451ms
+2023-02-26T19:29:11.8784644+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:29:11.8821297+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at english_trainer_dal.DAL.Repository.Base.BaseRepo`1.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\DAL\Repository\Base\BaseRepo.cs:line 37
+   at english_trainer_back.Controllers.Base.BaseCrudController`2.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back\Controllers\Base\BaseCrudController.cs:line 32
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:29:11.9132580+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 1306.3495ms
+2023-02-26T19:30:05.8469720+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:31:38.2870900+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:31:38.3255314+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:31:38.3286822+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:31:38.3424113+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:31:38.3433396+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:31:38.7982853+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:31:38.9597089+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 162.3266ms
+2023-02-26T19:31:39.0749033+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:31:39.2427382+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.0834ms
+2023-02-26T19:31:45.6877825+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:31:45.6955743+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:31:45.7230226+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:31:47.0332167+03:00 [ERR] (//) Failed executing DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT m.media_id, m.\"FilePath\", m.\"Name\", m.\"Subtitless\", m.\"VideoCode\"
+FROM \"Medias\" AS m
+WHERE m.media_id = @__p_0
+LIMIT 1"
+2023-02-26T19:31:47.0791817+03:00 [ERR] (//) An exception occurred while iterating over the results of a query for context type '"english_trainer_dal.DAL.Contexts.EnglishTrainerContext"'."
+""Npgsql.PostgresException (0x80004005): 42P01: relation \"Medias\" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation \"Medias\" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable"
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:31:47.2623474+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 1533.874ms
+2023-02-26T19:31:47.2651566+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:31:47.2692506+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at english_trainer_dal.DAL.Repository.Base.BaseRepo`1.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\DAL\Repository\Base\BaseRepo.cs:line 37
+   at english_trainer_back.Controllers.Base.BaseCrudController`2.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back\Controllers\Base\BaseCrudController.cs:line 32
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:31:47.3226479+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 1634.8862ms
+2023-02-26T19:36:56.3466042+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:36:56.4031508+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:36:56.4076384+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:36:56.4102420+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:36:56.4228910+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:36:56.8333318+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:36:57.1031256+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 272.7984ms
+2023-02-26T19:36:57.2779463+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:36:57.4582450+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.3401ms
+2023-02-26T19:37:11.8873343+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:37:11.9013251+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:37:11.9521273+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:38:13.7150760+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:38:13.7737080+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:38:13.7780410+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:38:13.8013749+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:38:13.8053188+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:38:14.3215104+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:38:14.5721746+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 252.3817ms
+2023-02-26T19:38:14.8311182+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:38:15.0462411+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 215.2120ms
+2023-02-26T19:38:22.8955724+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:38:22.9099432+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:38:22.9557728+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:39:14.1175844+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:39:14.1758684+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:39:14.1809737+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:39:14.2025711+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:39:14.2037999+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:39:14.8149031+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:39:15.0485826+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 235.2332ms
+2023-02-26T19:39:15.3039338+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:39:15.4872584+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.3290ms
+2023-02-26T19:39:25.5763906+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:39:25.5901459+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:39:25.6340022+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:39:41.9256448+03:00 [ERR] (//) Failed executing DbCommand ("29"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT m.media_id, m.\"FilePath\", m.\"Name\", m.\"Subtitless\", m.\"VideoCode\"
+FROM \"Medias\" AS m
+WHERE m.media_id = @__p_0
+LIMIT 1"
+2023-02-26T19:39:41.9977918+03:00 [ERR] (//) An exception occurred while iterating over the results of a query for context type '"english_trainer_dal.DAL.Contexts.EnglishTrainerContext"'."
+""Npgsql.PostgresException (0x80004005): 42P01: relation \"Medias\" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation \"Medias\" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable"
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:40:14.6227217+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 48979.1791ms
+2023-02-26T19:40:14.6273470+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:40:14.6346834+03:00 [ERR] (//) An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Medias" does not exist
+
+POSITION: 80
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|226_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at english_trainer_dal.DAL.Repository.Base.BaseRepo`1.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-dal\DAL\Repository\Base\BaseRepo.cs:line 37
+   at english_trainer_back.Controllers.Base.BaseCrudController`2.GetOneAsync(Int32 id) in C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back\Controllers\Base\BaseCrudController.cs:line 32
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Medias" does not exist
+    Position: 80
+    File: parse_relation.c
+    Line: 1392
+    Routine: parserOpenTable
+2023-02-26T19:40:14.8140505+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 500 - text/plain;+charset=utf-8 49237.6573ms
+2023-02-26T19:41:40.1598236+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:41:40.1910370+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:41:40.1941390+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:41:40.1948688+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:41:40.1953575+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:41:40.7188207+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:41:40.8490242+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 132.1599ms
+2023-02-26T19:41:40.9583416+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:41:41.0661675+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.6700ms
+2023-02-26T19:41:48.5638675+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - -
+2023-02-26T19:41:48.5723464+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:41:48.6035673+03:00 [INF] (//) Route matched with "{action = \"GetOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] GetOneAsync(Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:41:49.7124359+03:00 [INF] (//) Executed DbCommand ("16"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT m.media_id, m.file_path, m.name, m.subtitless, m.video_code
+FROM medias AS m
+WHERE m.media_id = @__p_0
+LIMIT 1"
+2023-02-26T19:41:49.7954821+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"english_trainer_dal.Models.Media"'.
+2023-02-26T19:41:49.8090919+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)" in 1200.3654ms
+2023-02-26T19:41:49.8131086+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetOneAsync (english-trainer-back)"'
+2023-02-26T19:41:49.8206778+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetOne?id=1 - - - 200 - application/json;+charset=utf-8 1256.8194ms
+2023-02-26T19:43:43.7788189+03:00 [INF] (//) Request starting HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383
+2023-02-26T19:43:43.7815396+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:43:43.7873845+03:00 [INF] (//) Route matched with "{action = \"AddOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] AddOne(english_trainer_dal.Models.Media)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:43:43.8653704+03:00 [INF] (//) Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2023-02-26T19:43:43.8694895+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)" in 79.5289ms
+2023-02-26T19:43:43.8703010+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:43:43.8717540+03:00 [INF] (//) Request finished HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 1383 - 400 - application/problem+json;+charset=utf-8 92.9202ms
+2023-02-26T19:44:08.3794436+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/api/Media/GetAll - -
+2023-02-26T19:44:08.3816750+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.GetAllAsync (english-trainer-back)"'
+2023-02-26T19:44:08.3857845+03:00 [INF] (//) Route matched with "{action = \"GetAll\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[english_trainer_dal.Models.Media]]] GetAllAsync()" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:44:08.4206309+03:00 [INF] (//) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT m.media_id, m.file_path, m.name, m.subtitless, m.video_code
+FROM medias AS m"
+2023-02-26T19:44:08.4268234+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[english_trainer_dal.Models.Media, english-trainer-dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-02-26T19:44:08.4285390+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.GetAllAsync (english-trainer-back)" in 40.0818ms
+2023-02-26T19:44:08.4299862+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.GetAllAsync (english-trainer-back)"'
+2023-02-26T19:44:08.4307828+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/api/Media/GetAll - - - 200 - application/json;+charset=utf-8 51.3846ms
+2023-02-26T19:45:41.9749842+03:00 [INF] (//) Request starting HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne/1 application/json 1383
+2023-02-26T19:45:41.9763829+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:45:41.9829945+03:00 [INF] (//) Route matched with "{action = \"DeleteOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] DeleteOne(english_trainer_dal.Models.Media, Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:45:41.9909716+03:00 [INF] (//) Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2023-02-26T19:45:41.9926456+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)" in 4.1211ms
+2023-02-26T19:45:41.9934047+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:45:41.9942912+03:00 [INF] (//) Request finished HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne/1 application/json 1383 - 400 - application/problem+json;+charset=utf-8 19.3101ms
+2023-02-26T19:45:43.0122391+03:00 [INF] (//) Request starting HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne/1 application/json 1383
+2023-02-26T19:45:43.0135179+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:45:43.0147959+03:00 [INF] (//) Route matched with "{action = \"DeleteOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] DeleteOne(english_trainer_dal.Models.Media, Int32)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:45:43.0229732+03:00 [INF] (//) Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2023-02-26T19:45:43.0260761+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)" in 6.1405ms
+2023-02-26T19:45:43.0279604+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:45:43.0295483+03:00 [INF] (//) Request finished HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne/1 application/json 1383 - 400 - application/problem+json;+charset=utf-8 17.2883ms
+2023-02-26T19:48:14.2057499+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:49:13.5960294+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:49:13.6319996+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:49:13.6358006+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:49:13.6369851+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:49:13.6377895+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:49:14.2336597+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:49:14.3811372+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 147.3594ms
+2023-02-26T19:49:14.5669120+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:49:14.6684989+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.5527ms
+2023-02-26T19:49:53.2118596+03:00 [INF] (//) Request starting HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 108
+2023-02-26T19:49:53.2205404+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:49:53.2416093+03:00 [INF] (//) Route matched with "{action = \"AddOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] AddOne(english_trainer_dal.Models.Media)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:49:54.3134962+03:00 [INF] (//) Executed DbCommand ("20"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO medias (media_id, file_path, name, subtitless, video_code)
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2023-02-26T19:49:54.3446032+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"english_trainer_dal.Models.Media"'.
+2023-02-26T19:49:54.3549386+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)" in 1107.5794ms
+2023-02-26T19:49:54.3571958+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.AddOne (english-trainer-back)"'
+2023-02-26T19:49:54.3687594+03:00 [INF] (//) Request finished HTTP/2 POST https://localhost:7005/api/Media/AddOne application/json 108 - 200 - application/json;+charset=utf-8 1156.8372ms
+2023-02-26T19:50:55.3938629+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:51:01.6718109+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:51:01.7041492+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:51:01.7072574+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:51:01.7081378+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:51:01.7086746+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:51:01.9026876+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:51:02.0321358+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 126.8026ms
+2023-02-26T19:51:02.1312371+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:51:02.2355745+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 104.3056ms
+2023-02-26T19:51:14.6990037+03:00 [INF] (//) Request starting HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne application/json 108
+2023-02-26T19:51:14.7082263+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:51:14.7291279+03:00 [INF] (//) Route matched with "{action = \"DeleteOne\", controller = \"Media\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[english_trainer_dal.Models.Media]] DeleteOne(english_trainer_dal.Models.Media)" on controller "english_trainer_back.Controllers.MediaController" ("english-trainer-back").
+2023-02-26T19:51:15.7508712+03:00 [INF] (//) Executed DbCommand ("18"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""DELETE FROM medias
+WHERE media_id = @p0;"
+2023-02-26T19:51:15.7779993+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"english_trainer_dal.Models.Media"'.
+2023-02-26T19:51:15.7858277+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)" in 1049.7323ms
+2023-02-26T19:51:15.7887553+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.MediaController.DeleteOne (english-trainer-back)"'
+2023-02-26T19:51:15.7959995+03:00 [INF] (//) Request finished HTTP/2 DELETE https://localhost:7005/api/Media/DeleteOne application/json 108 - 200 - application/json;+charset=utf-8 1096.9711ms
+2023-02-26T19:53:08.9165730+03:00 [INF] (//) Application is shutting down...
+2023-02-26T19:58:41.3460261+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T19:58:41.3796141+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T19:58:41.3822084+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T19:58:41.3829113+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T19:58:41.3835144+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T19:58:41.4969592+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T19:58:41.6389288+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 138.5204ms
+2023-02-26T19:58:41.8165328+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T19:58:41.9316881+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.0765ms
+2023-02-26T20:01:02.5399867+03:00 [INF] (//) Application is shutting down...
+2023-02-26T20:01:58.4551994+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T20:01:58.4869579+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T20:01:58.4907240+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T20:01:58.4914417+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T20:01:58.4919934+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T20:01:58.7112507+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T20:01:58.8434349+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 130.4836ms
+2023-02-26T20:01:58.9470895+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T20:01:59.0559207+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.8016ms
+2023-02-26T20:03:51.5641386+03:00 [INF] (//) Application is shutting down...
+2023-02-26T21:30:05.6014331+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-26T21:30:05.6457475+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-26T21:30:05.6497283+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-26T21:30:05.6508400+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-26T21:30:05.6518957+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-26T21:30:06.1977318+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-26T21:30:06.3739420+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 179.0976ms
+2023-02-26T21:30:06.5263792+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-26T21:30:06.6735191+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.0513ms

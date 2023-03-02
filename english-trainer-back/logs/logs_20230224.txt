@@ -1,0 +1,18 @@
+2023-02-24T23:46:31.9536426+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-02-24T23:46:32.0115028+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-02-24T23:46:32.0166752+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-02-24T23:46:32.0183854+03:00 [INF] (//) Hosting environment: "Development"
+2023-02-24T23:46:32.0193593+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-02-24T23:46:32.2810502+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-02-24T23:46:32.5102853+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 232.0469ms
+2023-02-24T23:46:32.6790816+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-02-24T23:46:32.8411200+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 162.0234ms
+2023-02-24T23:47:21.5274402+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/WeatherForecast - -
+2023-02-24T23:47:21.5398518+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.WeatherForecastController.Get (english-trainer-back)"'
+2023-02-24T23:47:21.5618011+03:00 [INF] (//) Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[english_trainer_back.WeatherForecast] Get()" on controller "english_trainer_back.Controllers.WeatherForecastController" ("english-trainer-back").
+2023-02-24T23:47:21.5684264+03:00 [INF] (//) Controller entered
+2023-02-24T23:47:21.5793226+03:00 [INF] (//) Executing "ObjectResult", writing value of type '"english_trainer_back.WeatherForecast[]"'.
+2023-02-24T23:47:21.6038154+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.WeatherForecastController.Get (english-trainer-back)" in 32.8033ms
+2023-02-24T23:47:21.6083088+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.WeatherForecastController.Get (english-trainer-back)"'
+2023-02-24T23:47:21.6109120+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/WeatherForecast - - - 200 - application/json;+charset=utf-8 83.3966ms
+2023-02-24T23:47:59.1269135+03:00 [INF] (//) Application is shutting down...
