@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace english_trainer_dal.DAL.Repository.Base;
 
-public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
+public abstract class BaseRepo <T>:IBaseRepo<T> where T: Models.Base
 {
     private DbSet<T> _dbset;
     protected DbContext _context;
@@ -34,12 +34,34 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
         await _context.Database.ExecuteSqlRawAsync(query, parameters);
     }
     
-    public virtual async Task<T> GetOneAsync(int id) => await _dbset.FindAsync(id);
+    public virtual async Task<T?> GetOneAsync(int id) => await _dbset.FindAsync(id);
 
-    public virtual async Task<IEnumerable<T>> GetAllAsync() => await Task.Run(() => _dbset.ToList());
+    public virtual async Task<IEnumerable<T?>> GetAllAsync() => await Task.Run(() => _dbset.ToList());
 
-    public virtual async Task<T> FindAsync(Expression<Func<bool,T>> predicate) => await _dbset.FindAsync(predicate);
-    
+    public async Task Update(T entity)
+    {
+       await Task.Run(() => _context.Update(entity));
+       await SaveChangesAsync();
+    }
+
+    public async Task<int> SaveChangesAsync()
+    {
+
+        try
+        {
+            return await _context.SaveChangesAsync();
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+
+    public virtual async Task<bool> CheckExistence(int id)
+    {
+        return await Task.Run(() => _dbset.Any(item => item.Id == id));
+    }
+
     public virtual async Task DeleteAsync(T entity, bool persist = true)
     {
          await Task.Run(() => _dbset.Remove(entity));
@@ -49,5 +71,7 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: class
     {
         await Task.Run(() => _dbset.RemoveRange(entities));
     }
+    
+
 
 }

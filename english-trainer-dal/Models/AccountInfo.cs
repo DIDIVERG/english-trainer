@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.AccessControl;
+using System.Text.Json.Serialization;
 
 namespace english_trainer_dal.Models;
 
@@ -15,7 +16,9 @@ public class AccountInfo : Base
     public string DisplayName { get; set; }  // name that will display in profile
     public string LanguageCode { get; set; }  // the language user want to learn
     [InverseProperty(nameof(Models.Translations.AccountInfos))]
+    [JsonIgnore]
     public virtual List<Translations> Translations { get; set; } = new List<Translations>();
     [InverseProperty(nameof(Media.AccountInfos))]
+    [JsonIgnore]
     public virtual List<Media> Medias { get; set; } = new List<Media>();
 }

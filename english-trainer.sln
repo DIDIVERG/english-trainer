@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-dal", "engl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "english-trainer-tests", "english-trainer-tests\english-trainer-tests.csproj", "{2A78179A-1D7E-481C-854C-BEC58AF390EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{D77EE8D7-051F-4DCF-BD17-1345FAB62467}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A78179A-1D7E-481C-854C-BEC58AF390EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D77EE8D7-051F-4DCF-BD17-1345FAB62467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D77EE8D7-051F-4DCF-BD17-1345FAB62467}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D77EE8D7-051F-4DCF-BD17-1345FAB62467}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D77EE8D7-051F-4DCF-BD17-1345FAB62467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

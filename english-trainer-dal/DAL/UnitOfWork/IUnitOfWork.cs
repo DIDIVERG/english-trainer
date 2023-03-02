@@ -9,5 +9,4 @@ public interface IUnitOfWork : IDisposable
     IPartOfSpeechRepo PartOfSpeechRepo { get; }
     ITranslationRepo TranslationRepo { get; }
     IWordsRepo WordsRepo { get; } 
-    Task<int> SaveChangesAsync();
 }

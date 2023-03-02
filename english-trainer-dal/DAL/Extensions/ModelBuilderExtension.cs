@@ -9,7 +9,7 @@ public static class ModelBuilderExtension
 
     public static void ConfigureLanguages(this ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Languages>().Property(p => p.LanguageId).HasColumnName("language_id");
+        modelBuilder.Entity<Languages>().Property(p => p.Id).HasColumnName("language_id");
     }
     public static void ConfigureMedia(this ModelBuilder modelBuilder)
     {

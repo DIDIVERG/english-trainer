@@ -25,7 +25,7 @@ public class BaseRepoTests
         Media media = new Media() { FilePath = "/path", Name = "Media", Subtitless = "None", VideoCode = "sdw231"};  
         //act
         await _unit.MediaRepo.AddAsync(media);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         Media media_get = await _unit.MediaRepo.GetOneAsync(1);
         //assert 
         media_get.FilePath.Should().Be("/path");
@@ -48,7 +48,7 @@ public class BaseRepoTests
         //act
         int count =  _unit.MediaRepo.GetAllAsync().Result.Count();
         await _unit.MediaRepo.AddRangeAsync(medias);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         List<Media> medias_get =  _unit.MediaRepo.GetAllAsync().Result.ToList();
         //assert 
         medias_get.Count().Should().Be(count+medias_get.Count());
@@ -68,7 +68,7 @@ public class BaseRepoTests
         Media media_test =  new Media() { FilePath = "/path", Name = "Media", Subtitless = "None", VideoCode = "sdw23"};
         medias.Add(media_test); 
         await _unit.MediaRepo.AddRangeAsync(medias);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         //act
         Media media = await _unit.MediaRepo.GetOneAsync(1);
         //assert
@@ -88,7 +88,7 @@ public class BaseRepoTests
         medias.Add(media_test2); 
         medias.Add(media_test3); 
         await _unit.MediaRepo.AddRangeAsync(medias);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         //act
         List<Media> medias_get = _unit.MediaRepo.GetAllAsync().Result.ToList();
         //assert
@@ -111,10 +111,10 @@ public class BaseRepoTests
         medias.Add(media_test2); 
         medias.Add(media_test3); 
         await _unit.MediaRepo.AddRangeAsync(medias);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         //act
         await _unit.MediaRepo.DeleteAsync(media_test1);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         List<Media> medias_get = _unit.MediaRepo.GetAllAsync().Result.ToList();
         //assert
         medias_get.Count().Should().Be(2);
@@ -133,13 +133,13 @@ public class BaseRepoTests
         medias.Add(media_test2); 
         medias.Add(media_test3); 
         await _unit.MediaRepo.AddRangeAsync(medias);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         List<Media> medias2 = new List<Media>();
         medias2.Add(media_test1);
         medias2.Add(media_test2);
         //act
         await _unit.MediaRepo.DeleteRangeAsync(medias2);
-        await _unit.SaveChangesAsync();
+        await _unit.MediaRepo.SaveChangesAsync();
         List<Media> medias_get = _unit.MediaRepo.GetAllAsync().Result.ToList();
         //assert
         medias_get.Count().Should().Be(1);

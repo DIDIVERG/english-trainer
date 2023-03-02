@@ -40,21 +40,11 @@ public class UnitOfWork: IUnitOfWork
     }
 
     ~UnitOfWork() => Dispose(false);
-    
+  
     public ILanguagesRepo LanguagesRepo { get; }
     public IMediaRepo MediaRepo { get; }
     public IPartOfSpeechRepo PartOfSpeechRepo { get; }
     public ITranslationRepo TranslationRepo { get; }
     public IWordsRepo WordsRepo { get; }
-    public async Task<int> SaveChangesAsync()
-    {
-        try
-        {
-            return await _context.SaveChangesAsync();
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
-        }
-    }
+   
 }
