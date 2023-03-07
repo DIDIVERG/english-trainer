@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lOIK+hQ95QonlKQDepQ5QFC3Ber7BoPWdRm/5jCNhHKGJV9x9s2vxew2kOE1JehW06jap0AyYG7nGK0F2e5Q2Q==",
+  "dgSpecHash": "C00TUWQfLE/ZHq6xPy3jrOeEAII/uUKSVU94Ov5ji9Dao5ceSi8OAa2Tovcuc2DF1Uempvy0TokZtkDOpVMEjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ILYA\\RiderProjects\\english-trainer\\english-trainer-back\\english-trainer-back.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ILYA\\.nuget\\packages\\anglesharp\\1.0.1\\anglesharp.1.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\cliwrap\\3.6.0\\cliwrap.3.6.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\efcore.namingconventions\\7.0.0\\efcore.namingconventions.7.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
@@ -114,7 +116,7 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -144,6 +146,7 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\system.linq.async\\6.0.1\\system.linq.async.6.0.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
@@ -181,7 +184,7 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
@@ -193,7 +196,9 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\ILYA\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\youtubeexplode\\6.2.8\\youtubeexplode.6.2.8.nupkg.sha512",
+    "C:\\Users\\ILYA\\.nuget\\packages\\youtubeexplode.converter\\6.2.8\\youtubeexplode.converter.6.2.8.nupkg.sha512"
   ],
   "logs": []
 }
