@@ -1,4 +1,5 @@
-﻿using YoutubeExplode.Videos.Streams;
+﻿using english_trainer_back.Services.Models;
+using YoutubeExplode.Videos.Streams;
 
 namespace english_trainer_back.Services.YouTubeDownloader.Interfaces;
 

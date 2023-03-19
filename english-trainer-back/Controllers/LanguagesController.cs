@@ -17,7 +17,7 @@ namespace english_trainer_back.Controllers
     [ApiController]
     public class LanguagesController : BaseCrudController<Languages,LanguagesController>
     {
-        public LanguagesController(IMapper mapper, ILanguagesRepo baseRepo, ILogger<LanguagesController> logger) 
+        public LanguagesController(IMapper mapper, IBaseRepo<Languages> baseRepo, ILogger<LanguagesController> logger) 
             : base(mapper, baseRepo, logger)
         {
             

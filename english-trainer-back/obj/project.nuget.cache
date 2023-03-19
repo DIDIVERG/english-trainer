@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HThTttllAJPiYXUumfEL7IAc9SVuxlOvEhoo+8nlJMUdYoTXbuRGiEBXfPiVyfxtZmAWJpqdveWZ6DviYqbSfQ==",
+  "dgSpecHash": "C00TUWQfLE/ZHq6xPy3jrOeEAII/uUKSVU94Ov5ji9Dao5ceSi8OAa2Tovcuc2DF1Uempvy0TokZtkDOpVMEjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ILYA\\RiderProjects\\english-trainer\\english-trainer-back\\english-trainer-back.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,6 @@
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\7.0.4\\microsoft.visualstudio.web.codegeneration.7.0.4.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\7.0.4\\microsoft.visualstudio.web.codegeneration.core.7.0.4.nupkg.sha512",
     "C:\\Users\\ILYA\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\7.0.4\\microsoft.visualstudio.web.codegeneration.design.7.0.4.nupkg.sha512",

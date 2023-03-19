@@ -47,7 +47,6 @@ namespace english_trainer_back.Controllers.Base
         [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<TEntity>>> GetAllAsync()
         {
-            logger.LogInformation("Entered in the GetAll method");
             var response = await baseRepo.GetAllAsync();
             return Ok(response);
         }
