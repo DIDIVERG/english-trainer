@@ -2,7 +2,7 @@
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
-
+ENV ASPNETCORE_URLS=http://+:5000
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["english-trainer-back/english-trainer-back.csproj", "english-trainer-back/"]

@@ -26,7 +26,7 @@ services:
     expose:
       - 5000
     ports:
-      - "8000:80"
+      - "8000:5000"
     environment:
       - ConnectionStrings__Default=User ID=postgres; Server=db;Port=5432; IntegratedSecurity=true; Pooling=true; Database=english_trainer_db;
       - ASPNETCORE_ENVIRONMENT=Development
