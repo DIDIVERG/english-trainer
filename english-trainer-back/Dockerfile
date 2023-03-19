@@ -6,6 +6,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["english-trainer-back/english-trainer-back.csproj", "english-trainer-back/"]
+COPY ["english-trainer-dal/english-trainer-dal.csproj", "english-trainer-dal/"]
 RUN dotnet restore "english-trainer-back/english-trainer-back.csproj"
 COPY . .
 WORKDIR "/src/english-trainer-back"
@@ -18,4 +19,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "english-trainer-back.dll"]
-
