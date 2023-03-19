@@ -1,0 +1,73 @@
+2023-03-18T13:59:12.1473377+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-03-18T13:59:12.2020707+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-03-18T13:59:12.2045926+03:00 [INF] (//) Hosting environment: "Development"
+2023-03-18T13:59:12.2062800+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-03-18T13:59:14.0812685+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger - -
+2023-03-18T13:59:14.3079644+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger - - - 301 0 - 230.4833ms
+2023-03-18T13:59:14.3194466+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/index.html - -
+2023-03-18T13:59:14.4994700+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/index.html - - - 200 - text/html;charset=utf-8 179.9393ms
+2023-03-18T13:59:14.5221604+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui.css - -
+2023-03-18T13:59:14.5225719+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-bundle.js - -
+2023-03-18T13:59:14.5240951+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-standalone-preset.js - -
+2023-03-18T13:59:14.5707504+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2023-03-18T13:59:14.5707336+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2023-03-18T13:59:14.5784642+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2023-03-18T13:59:14.5799478+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 55.8978ms
+2023-03-18T13:59:14.5799640+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui.css - - - 200 143943 text/css 57.6368ms
+2023-03-18T13:59:14.5865246+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 63.8993ms
+2023-03-18T13:59:14.9506936+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - -
+2023-03-18T13:59:15.1477932+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 197.1523ms
+2023-03-18T13:59:22.7123699+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/api/AccountInfo/GetAll - -
+2023-03-18T13:59:22.7208711+03:00 [WRN] (//) Failed to determine the https port for redirect.
+2023-03-18T13:59:22.7296879+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)"'
+2023-03-18T13:59:22.7571029+03:00 [INF] (//) Route matched with "{action = \"GetAll\", controller = \"AccountInfo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[english_trainer_dal.Models.AccountInfo]]] GetAllAsync()" on controller "english_trainer_back.Controllers.AccountInfoController" ("english-trainer-back").
+2023-03-18T13:59:24.8292157+03:00 [INF] (//) Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.id, a.display_name, a.language_code, a.login, a.mail, a.password
+FROM account_infos AS a"
+2023-03-18T13:59:24.8553818+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[english_trainer_dal.Models.AccountInfo, english-trainer-dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-18T13:59:24.8724523+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)" in 2106.5841ms
+2023-03-18T13:59:24.8779325+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)"'
+2023-03-18T13:59:24.8950462+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/api/AccountInfo/GetAll - - - 200 - application/json;+charset=utf-8 2182.6045ms
+2023-03-18T14:02:16.3693345+03:00 [INF] (//) Application is shutting down...
+2023-03-18T14:03:13.4480000+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-03-18T14:03:13.5050611+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-03-18T14:03:13.5088551+03:00 [INF] (//) Hosting environment: "Development"
+2023-03-18T14:03:13.5112572+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-03-18T14:03:13.6640645+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/index.html - -
+2023-03-18T14:03:13.8766898+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/index.html - - - 200 - text/html;charset=utf-8 215.4316ms
+2023-03-18T14:03:14.2906097+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - -
+2023-03-18T14:03:14.4792667+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.6607ms
+2023-03-18T14:03:23.8097719+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/api/Languages/GetAll - -
+2023-03-18T14:03:23.8225144+03:00 [WRN] (//) Failed to determine the https port for redirect.
+2023-03-18T14:03:23.8295548+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.LanguagesController.GetAllAsync (english-trainer-back)"'
+2023-03-18T14:03:23.8538487+03:00 [INF] (//) Route matched with "{action = \"GetAll\", controller = \"Languages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[english_trainer_dal.Models.Languages]]] GetAllAsync()" on controller "english_trainer_back.Controllers.LanguagesController" ("english-trainer-back").
+2023-03-18T14:03:25.3497688+03:00 [INF] (//) Entered in the GetAll method
+2023-03-18T14:03:25.6530584+03:00 [INF] (//) Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT l.language_id, l.full_name
+FROM languages AS l"
+2023-03-18T14:03:25.6894097+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[english_trainer_dal.Models.Languages, english-trainer-dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-18T14:03:25.7072131+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.LanguagesController.GetAllAsync (english-trainer-back)" in 1845.4699ms
+2023-03-18T14:03:25.7111874+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.LanguagesController.GetAllAsync (english-trainer-back)"'
+2023-03-18T14:03:25.7338720+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/api/Languages/GetAll - - - 200 - application/json;+charset=utf-8 1924.0504ms
+2023-03-18T14:15:02.4293994+03:00 [INF] (//) Application is shutting down...
+2023-03-18T14:26:23.6104961+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-03-18T14:26:23.6660164+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-03-18T14:26:23.6691637+03:00 [INF] (//) Hosting environment: "Development"
+2023-03-18T14:26:23.6703665+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-03-18T14:26:24.0010892+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/index.html - -
+2023-03-18T14:26:24.1795679+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/index.html - - - 200 - text/html;charset=utf-8 180.5577ms
+2023-03-18T14:26:24.3693816+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - -
+2023-03-18T14:26:24.5624350+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 193.0085ms
+2023-03-18T14:26:43.9714350+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/api/AccountInfo/GetAll - -
+2023-03-18T14:26:43.9824107+03:00 [WRN] (//) Failed to determine the https port for redirect.
+2023-03-18T14:26:43.9898108+03:00 [INF] (//) Executing endpoint '"english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)"'
+2023-03-18T14:26:44.0131973+03:00 [INF] (//) Route matched with "{action = \"GetAll\", controller = \"AccountInfo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[english_trainer_dal.Models.AccountInfo]]] GetAllAsync()" on controller "english_trainer_back.Controllers.AccountInfoController" ("english-trainer-back").
+2023-03-18T14:26:45.4438079+03:00 [INF] (//) Entered in the GetAll method
+2023-03-18T14:26:45.7466973+03:00 [INF] (//) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT a.id, a.display_name, a.language_code, a.login, a.mail, a.password
+FROM account_infos AS a"
+2023-03-18T14:26:45.7753324+03:00 [INF] (//) Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[english_trainer_dal.Models.AccountInfo, english-trainer-dal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-18T14:26:45.7926909+03:00 [INF] (//) Executed action "english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)" in 1770.4645ms
+2023-03-18T14:26:45.7986476+03:00 [INF] (//) Executed endpoint '"english_trainer_back.Controllers.AccountInfoController.GetAllAsync (english-trainer-back)"'
+2023-03-18T14:26:45.8166592+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/api/AccountInfo/GetAll - - - 200 - application/json;+charset=utf-8 1845.2300ms
+2023-03-18T14:28:59.5697711+03:00 [INF] (//) Application is shutting down...

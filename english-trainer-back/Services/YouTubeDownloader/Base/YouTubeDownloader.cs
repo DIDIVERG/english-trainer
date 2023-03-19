@@ -1,5 +1,5 @@
-﻿using english_trainer_back.Services.Models;
-using english_trainer_back.Services.YouTubeDownloader.Interfaces;
+﻿using english_trainer_back.Services.YouTubeDownloader.Interfaces;
+using english_trainer_back.Services.YouTubeDownloader.Models;
 using Microsoft.CodeAnalysis.Elfie.Serialization;
 using YoutubeExplode;
 using YoutubeExplode.Converter;

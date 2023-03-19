@@ -1,0 +1,47 @@
+2023-03-14T22:08:31.2681689+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-03-14T22:08:31.3115764+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-03-14T22:08:31.3129320+03:00 [INF] (//) Hosting environment: "Development"
+2023-03-14T22:08:31.3139054+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-03-14T22:08:31.8264190+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger - -
+2023-03-14T22:08:31.8864435+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger - - - 301 0 - 61.8367ms
+2023-03-14T22:08:31.8933809+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/index.html - -
+2023-03-14T22:08:31.9951616+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/index.html - - - 200 - text/html;charset=utf-8 101.7701ms
+2023-03-14T22:08:32.0070559+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui.css - -
+2023-03-14T22:08:32.0075451+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-bundle.js - -
+2023-03-14T22:08:32.0088349+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-standalone-preset.js - -
+2023-03-14T22:08:32.0373638+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2023-03-14T22:08:32.0373637+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2023-03-14T22:08:32.0439204+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 34.9438ms
+2023-03-14T22:08:32.0439207+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui.css - - - 200 143943 text/css 36.6540ms
+2023-03-14T22:08:32.0486022+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2023-03-14T22:08:32.0502316+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 42.6539ms
+2023-03-14T22:08:32.2787696+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - -
+2023-03-14T22:08:32.3129596+03:00 [INF] (//) Request starting HTTP/1.1 GET http://localhost:5161/swagger/favicon-32x32.png - -
+2023-03-14T22:08:32.3144345+03:00 [INF] (//) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-03-14T22:08:32.3164004+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/favicon-32x32.png - - - 200 628 image/png 3.4004ms
+2023-03-14T22:08:32.4282602+03:00 [INF] (//) Request finished HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.4682ms
+2023-03-14T22:10:30.8986140+03:00 [INF] (//) Application is shutting down...
+2023-03-14T22:10:34.8702066+03:00 [INF] (//) Now listening on: "https://localhost:7005"
+2023-03-14T22:10:34.9044632+03:00 [INF] (//) Now listening on: "http://localhost:5161"
+2023-03-14T22:10:34.9066704+03:00 [INF] (//) Application started. Press Ctrl+C to shut down.
+2023-03-14T22:10:34.9078642+03:00 [INF] (//) Hosting environment: "Development"
+2023-03-14T22:10:34.9089013+03:00 [INF] (//) Content root path: "C:\Users\ILYA\RiderProjects\english-trainer\english-trainer-back"
+2023-03-14T22:10:35.3697739+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger - -
+2023-03-14T22:10:35.4225919+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger - - - 301 0 - 54.2031ms
+2023-03-14T22:10:35.4405265+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - -
+2023-03-14T22:10:35.5447534+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - - - 200 - text/html;charset=utf-8 104.1255ms
+2023-03-14T22:10:35.6188619+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/swagger-ui.css - -
+2023-03-14T22:10:35.6190608+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/swagger-ui-bundle.js - -
+2023-03-14T22:10:35.6219045+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/swagger-ui-standalone-preset.js - -
+2023-03-14T22:10:35.6402609+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2023-03-14T22:10:35.6402609+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2023-03-14T22:10:35.6425457+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/swagger-ui.css - - - 200 143943 text/css 23.6865ms
+2023-03-14T22:10:35.6433163+03:00 [INF] (//) Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2023-03-14T22:10:35.6456210+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 23.4147ms
+2023-03-14T22:10:35.6501258+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 30.8628ms
+2023-03-14T22:10:35.8780718+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - -
+2023-03-14T22:10:35.9226869+03:00 [INF] (//) Request starting HTTP/2 GET https://localhost:7005/swagger/favicon-32x32.png - -
+2023-03-14T22:10:35.9245683+03:00 [INF] (//) Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-03-14T22:10:35.9269701+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/favicon-32x32.png - - - 200 628 image/png 4.1014ms
+2023-03-14T22:10:36.0330584+03:00 [INF] (//) Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.0724ms
+2023-03-14T22:13:18.7003354+03:00 [INF] (//) Application is shutting down...

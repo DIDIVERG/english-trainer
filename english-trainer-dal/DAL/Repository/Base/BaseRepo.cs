@@ -71,7 +71,5 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: Models.Base
     {
         await Task.Run(() => _dbset.RemoveRange(entities));
     }
-    
-
 
 }

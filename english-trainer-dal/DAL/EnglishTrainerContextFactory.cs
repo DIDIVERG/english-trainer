@@ -16,7 +16,6 @@ public class EnglishTrainerContextFactory : IDesignTimeDbContextFactory<EnglishT
     {
         NpgsqlConnectionStringBuilder connectionString = new NpgsqlConnectionStringBuilder()
         {
-            
             Host = "localhost",
             Port = 49153, 
             Database = "english_trainer_db",
