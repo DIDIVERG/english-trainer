@@ -19,6 +19,7 @@ services:
     networks:
       - nginx-net
   back-api:
+    image: divergent7/english-trainer-back
     build:
       context: . 
       dockerfile: english-trainer-back/Dockerfile
@@ -46,7 +47,7 @@ services:
       - POSTGRES_PASSWORD=pass
     ports:
       - "49153:5432"
-    restart: always
+    restart: unless-stopped
     networks:
       - back-bd
     volumes:

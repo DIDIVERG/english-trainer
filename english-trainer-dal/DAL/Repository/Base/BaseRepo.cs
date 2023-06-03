@@ -62,6 +62,13 @@ public abstract class BaseRepo <T>:IBaseRepo<T> where T: Models.Base
         return await Task.Run(() => _dbset.Any(item => item.Id == id));
     }
 
+    public virtual async Task<T?> FindAsync(Expression<Func<bool, T>> expression)
+    {
+    //    throw new NotImplementedException();
+    }
+
+
+
     public virtual async Task DeleteAsync(T entity, bool persist = true)
     {
          await Task.Run(() => _dbset.Remove(entity));

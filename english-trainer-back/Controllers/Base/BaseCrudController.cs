@@ -50,27 +50,6 @@ namespace english_trainer_back.Controllers.Base
             var response = await baseRepo.GetAllAsync();
             return Ok(response);
         }
-
-        [HttpPost("AddOne")]
-        public async Task<ActionResult<TEntity>> AddOne( [FromBody] TEntity entity)
-        {
-            if (!ModelState.IsValid)
-            {
-                logger.LogError("Validation problem");
-                return ValidationProblem();
-            }
-            try
-            {
-                await baseRepo.AddAsync(entity);
-                await baseRepo.SaveChangesAsync();
-            }
-            catch (Exception e)
-            {
-                logger.LogError(e, $"An error occured while adding");
-                return BadRequest();
-            }
-            return Ok(entity);
-        } 
         
         [HttpPost("AddRange")]
         public async Task<ActionResult<IEnumerable<TEntity>>> AddRange([FromBody] IEnumerable<TEntity> entities)
@@ -93,23 +72,7 @@ namespace english_trainer_back.Controllers.Base
             return Ok(entities);
         }
         
-        [HttpDelete("DeleteOne")]
-        public async Task<ActionResult<TEntity>> DeleteOne ([FromBody] TEntity entity)
-        {
-            if (!ModelState.IsValid)
-            {
-                logger.LogError("Validation problem");
-                return ValidationProblem();
-            }
-            if (! await baseRepo.CheckExistence(entity.Id))
-            {
-                logger.LogError("There is no entity with received id");
-                return BadRequest(ModelState);
-            }
-            await baseRepo.DeleteAsync(entity);
-            await baseRepo.SaveChangesAsync();
-            return Ok(entity);
-        }
+       
         [HttpDelete("DeleteOne/{id}")]
         public async Task<ActionResult<TEntity>> DeleteOne (int id)
         {

@@ -16,5 +16,7 @@ public interface IBaseRepo <T> where T : class
      Task<int> SaveChangesAsync();
      Task<bool> CheckExistence(int id);
 
+     Task<T?> FindAsync(Expression<Func<bool, T>> expression);
+
 
 }

@@ -91,6 +91,7 @@ public class YouTubeDownloader : IYouTubeDownloader
     public async Task DownloadClosedCaptionsAsync(string path, string language)
     {
         var trackInfo = _manifests.ClosedCaptionManifest.GetByLanguage(language);
+        var tracks = _manifests.ClosedCaptionManifest.Tracks;
         await _youtube.Videos.ClosedCaptions.DownloadAsync(trackInfo, path + $"{_videoInfo.Title}.srt");
     }
 }

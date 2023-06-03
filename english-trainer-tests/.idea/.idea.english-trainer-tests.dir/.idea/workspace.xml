@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ad32acf-ecde-4558-8126-6a5fd96012cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/UnitOfWork/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-dal/DAL/UnitOfWork/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/UnitOfWork/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-dal/DAL/UnitOfWork/UnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/ConsoleApp1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/ConsoleApp1.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/Debug/net7.0/ConsoleApp1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleApp1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer-back/Controllers/Base/BaseCrudController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-back/Controllers/Base/BaseCrudController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer-back/Controllers/LanguagesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-back/Controllers/LanguagesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer-back/Services/YouTubeDownloader/Base/YouTubeDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-back/Services/YouTubeDownloader/Base/YouTubeDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/Base/BaseRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/Base/BaseRepo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/Interfaces/IBaseRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer-dal/DAL/Repository/Interfaces/IBaseRepo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.english-trainer-tests.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.english-trainer-tests.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/english-trainer-tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/english-trainer-tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../english-trainer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../english-trainer.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,21 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2M3QJCht2MQF4hHYqikmOaYzMQf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676993711752</updated>
       <workItem from="1676993715707" duration="3000" />
+      <workItem from="1682076184429" duration="1204000" />
+      <workItem from="1682962093776" duration="7000" />
     </task>
     <servers />
   </component>
